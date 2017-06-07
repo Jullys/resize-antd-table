@@ -1,13 +1,10 @@
 {
   "name": "resize-antd-table",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "基于antd table实现的简单的列拖拽功能",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/"
+    "url": "https://github.com/Jullys/resize-antd-table"
   },
 
   "author": "july_jin",
