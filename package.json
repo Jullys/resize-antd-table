@@ -1,6 +1,6 @@
 {
   "name": "resize-antd-table",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "基于antd table实现的简单的列拖拽功能",
   "repository": {
     "type": "git",
@@ -13,8 +13,8 @@
   "style": "style.css",
   "scripts": {
     "start": "webpack-dev-server",
-    "dev": "rimraf lib && babel src --watch --copy-files --source-maps --extensions .es6,.es,.jsx --out-dir lib",
-    "compile": "rimraf lib && babel src --copy-files --source-maps --extensions .es6,.es,.jsx --out-dir lib"
+    "dev": "rimraf lib && babel src/* --watch --copy-files --source-maps --extensions .es6,.es,.jsx --out-dir lib",
+    "compile": "rimraf lib && babel src/* --copy-files --source-maps --extensions .es6,.es,.jsx --out-dir lib"
   },
   "babel": {
   "presets": [
