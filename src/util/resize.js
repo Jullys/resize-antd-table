@@ -1,6 +1,4 @@
-'use strict';
-var tabSize = tabSize || {};
-tabSize.init = function(id) {
+module.exports = function tabSize(id) {
     var i,
         self,
         table = document.getElementById(id),
@@ -46,5 +44,3 @@ tabSize.init = function(id) {
         };
     }
 };
-
-export default tabSize;

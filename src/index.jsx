@@ -21,7 +21,7 @@ class ResizeTable extends Component {
       let table = me.find('table');
       let id = uuid();
       table.attr('id', id);
-      tabSize.init(id);
+      tabSize(id);
       // 去掉所有col上面的width
       this.setColumnsWidth(id);
     }
