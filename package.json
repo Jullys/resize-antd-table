@@ -19,7 +19,7 @@
     "prepublish": " npm run umd",
     "postpublish": "git push --tags"
   },
-    "babel": {
+  "babel": {
     "presets": [
       [
         "latest",
