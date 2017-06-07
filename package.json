@@ -11,10 +11,11 @@
   "license": "ISC",
   "main": "index.js",
   "scripts": {
+    "clean":"./node_modules/.bin/rimraf lib",
+    "build":"./node_modules/.bin/babel src --out-dir lib --source-maps --extensions .es6,.es,.jsx --copy-files",
+    "test":"npm run clean && npm run build",
     "start": "webpack-dev-server",
-    "dev": "rimraf lib && babel src --watch --copy-files --source-maps --extensions .es6,.es,.jsx --out-dir lib",
-    "compile": "rimraf lib && babel src --copy-files --source-maps --extensions .es6,.es,.jsx --out-dir lib",
-    "prepublish": "npm run start && npm run dev && npm run compile"
+    "prepublish": "npm run test"
   },
   "babel": {
     "presets": [
