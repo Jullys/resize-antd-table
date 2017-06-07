@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { Table } from 'antd';
-import uuid from '../common/uuid';
-import tabSize from './resize';
+import uuid from './common/uuid';
+import tabSize from './util/resize';
 
 const T = React.PropTypes;
 

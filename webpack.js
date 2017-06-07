@@ -12,7 +12,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(js|jsx)$/, // Transform all .js files required somewhere with Babel
+        test: /\.(js|jsx)$/,
         loader: 'babel-loader?cacheDirectory',
         exclude: /node_modules/
       },
